@@ -1,0 +1,37 @@
+{
+  "name": "tomuto",
+  "displayName": "Tomuto Color Theme",
+  "description": "Some description. Will update it soon.",
+  "version": "0.0.1",
+  "publisher": "yuriity",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuriity/tomuto"
+  },
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tomuto Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tomuto-dark.json"
+      },
+      {
+        "label": "Tomuto Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tomuto-dark-modern.json"
+      },
+      {
+        "label": "Tomuto Light",
+        "uiTheme": "vs",
+        "path": "./themes/tomuto-light.json"
+      }
+    ]
+  }
+}
